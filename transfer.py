@@ -1,9 +1,12 @@
 import socket
 import os
 import sys
+#What works so far:
+#Port 22 Opens when the program is run
 
-#Opening port 22 works pussy LETS FUCKING GOOOOOO!!!!!
-#change change omg theres a change this is a test holy smokesssss
+#What i want to work on:
+#1) Get the network scan to work on all devices to see if port 22 is open with the device names
+#2) Get SSH working seemlessley between laptop and desktop
 
 def elevate():
     if os.getuid() != 0:
