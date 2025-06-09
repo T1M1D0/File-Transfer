@@ -3,6 +3,7 @@ import os
 import sys
 
 #Opening port 22 works pussy LETS FUCKING GOOOOOO!!!!!
+#change change omg theres a change this is a test holy smokesssss
 
 def elevate():
     if os.getuid() != 0:
